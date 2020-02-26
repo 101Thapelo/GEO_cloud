@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Camera, CameraOptions } from '@ionic-native/camera';
+//import { Camera, CameraOptions } from '@ionic-native/camera';
 import { NavController } from '@ionic/angular/providers/nav-controller';
 @Component({
   selector: 'app-inspection',
@@ -7,13 +7,13 @@ import { NavController } from '@ionic/angular/providers/nav-controller';
   styleUrls: ['./inspection.page.scss'],
 })
 export class InspectionPage implements OnInit {
-  [x: string]: any;
-  currentImage: any
-  constructor(public navCtrl: NavController, private camera: Camera) { 
+ /* [x: string]: any;
+  currentImage: any*/
+  constructor() { 
 
     
   }
- takePicture() {
+ /*takePicture() {
     const options: CameraOptions = {
       quality: 100,
       destinationType: this.camera.DestinationType.DATA_URL,
@@ -27,7 +27,7 @@ export class InspectionPage implements OnInit {
      // Handle error
      console.log("Camera issue:" + err);
     });
-  }
+  }*/
   ngOnInit() {
     
     
