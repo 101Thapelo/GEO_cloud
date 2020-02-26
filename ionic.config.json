@@ -1,0 +1,7 @@
+{
+  "name": "GEO_cloud",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

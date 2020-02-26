@@ -1,0 +1,106 @@
+.bg-style {
+  --ion-background-color:#7a7474;
+ 
+}
+.container{
+  background-color: #141414;
+  height: 8%;
+  width: 100%;
+   display: flex;
+ 
+}
+.card{
+  width: 96%;
+  height: 20%;
+  box-shadow: grey 2px 2px 2px 2px;
+ display: flex;
+ background-color: #141414;
+ position: relative;
+ top: 1%;
+ right: -2%;
+}
+.contain{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height:100%;
+
+}
+.mapImg{
+  width: 35%;
+  height: 100%;
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQD1HpAE0go0YGyJUgcUEXHspHsUgmXVR-Z5cnaPxFhdL0ZG6yZ');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Cont{
+  width: 65%;
+  height: 70%;
+ 
+
+
+}
+.header{
+  width: 100%;
+  height: 30%;
+
+}
+.header2{
+ 
+  width: 100%;
+  height: 30%;
+  
+}
+.bottom{
+  width: 65%;
+  height: 7%;
+
+  position: relative;
+  top: -7%;
+  right: -40%;
+  display: flex;
+}
+.rightButton{
+  width: 45%;
+  height: 100%;
+ 
+}
+.leftButton{
+  width: 45%;
+  height: 100%;
+
+}
+.vline	{
+   width:1px;
+    height:50%;
+     border:solid seashell;
+     margin: auto;
+   }
+   p{
+     color: white;
+     padding: 5px;
+   }
+   h5{
+     color: white;
+     padding: 5px;
+   }
+   .conImg{
+     width: 20%;
+     height: 100%;
+     
+     position: relative;
+     right: -1%;
+   }
+   .heading{
+     width:70% ;
+     position: relative;
+     right: 6%;
+   }
+   h4{
+     color: #7a7474;
+   }
+   .btn{
+     background-color: transparent;
+     color: white;
+   }

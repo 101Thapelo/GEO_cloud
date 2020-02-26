@@ -1,0 +1,136 @@
+.bg-style {
+    --ion-background-color:#7a7474;
+   
+  }
+  .container{
+    background-color: #141414;
+    height: 6%;
+    width: 100%;
+     display: flex;
+   
+  }
+
+  .contain{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height:100%;
+  
+  }
+  
+  .Cont{
+    width: 65%;
+    height: 70%;
+   
+  
+  
+  }
+  .header{
+    width: 100%;
+    height: 30%;
+  
+  }
+  .header2{
+   
+    width: 100%;
+    height: 30%;
+    
+  }
+
+  .leftButton{
+    width: 45%;
+    height: 100%;
+  
+  }
+  
+     h5{
+       color: white;
+       
+     }
+     .conImg{
+       width: 20%;
+       height: 100%;
+       
+       position: relative;
+       right: -1%;
+     }
+     .heading{
+       width:80% ;
+       height: 100%;
+       position: relative;
+       right: 6%;
+     }
+     h4{
+       color: #7a7474;
+     }
+     
+     .instructions{
+         width: 100%;
+         height: 15%;
+       
+         display: flex;
+         flex-direction: column;
+     }
+     .reportcontainer{
+         width: 96%;
+         height: 40%;
+
+         position: relative;
+         right: -2%;
+     }
+     .imageConainer{
+        width: 96%;
+        height: 40%;
+        border: solid; 
+        position: relative;
+         right: -2%;  
+     }
+     .title1{
+         width: 50%;
+         height: 40%;
+         position: relative;
+         top: -15%;
+     }
+     .reportcontainer{
+       background-color: #141414;
+         border-radius: 2%;
+
+     }
+     .btn-c{
+         color: white;
+         background-color: transparent;
+         border: solid 1px white;
+         width: 90%;
+         right: -5%;
+         bottom: 30%;
+         position: relative;
+
+     }
+     .paraGra{
+       width: 96%; 
+       height: 75%;
+    
+       position: relative;
+       right: -2%;
+       font-size: small;
+       font-weight: 1em;
+       top: -15%;
+       color: white;
+     }
+     .checkbox1{
+         color: white;
+     }
+     .butn{
+         width: 100%;
+         height: 15%;
+   
+        padding: 1px;
+         position: relative;
+         top: 20%;
+     }
+     .checkbox1{
+         color: #7a7474;
+     }
+     .labls{
+        color: #7a7474;
+     }

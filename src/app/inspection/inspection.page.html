@@ -1,0 +1,39 @@
+<ion-header>
+  
+    
+</ion-header>
+
+<ion-content class="bg-style" >
+  <div class="contain">
+    <div class="container">
+      <div class="conImg"><img src="https://geo-cloud.azurewebsites.net/images/gg-logo.png" height="80%;"></div>
+       <div class="heading"> <h4>Inspection Task List</h4></div>
+    </div>
+    <div class="instructions">
+      <div class="title1"><h5>Background</h5></div>
+      <div class="paraGra">
+        <p>Engrossed suffering supposing he recommend do eagerness. Commanded no of depending extremity recommend attention tolerably.</p>
+      </div>
+    </div>
+    <div class="reportcontainer">
+  <h5>Report</h5>
+    <div class="checkbox1">
+      <ion-item color="clear">
+        <ion-label  class="labls">No access on site</ion-label>
+        <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+      </ion-item>
+      <ion-item color="clear" >
+        <ion-label position="floating" class="labls">Site report</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+      <div class="butn"><ion-button class="btn-c" color="clear" (click)="takePicture()">Camera</ion-button></div>
+      
+    </div>
+    </div>
+    <div class="imageConainer">
+      <img [src]="currentImage" *ngIf="currentImage">
+    </div>
+    </div>
+    
+  
+</ion-content>
