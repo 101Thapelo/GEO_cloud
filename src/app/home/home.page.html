@@ -1,5 +1,10 @@
 <ion-header [translucent]="true">
- 
+  <ion-toolbar color="dark"> 
+
+    <ion-title color="light">
+      Inspection Task List  
+    </ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content   class="bg-style">
@@ -8,31 +13,37 @@
   </ion-header>
 
    <div class="contain">
-     <div class="container">
-       <div class="conImg"><img src="https://geo-cloud.azurewebsites.net/images/gg-logo.png" height="80%;"></div>
-        <div class="heading"> <h4>Inspection Task List</h4></div>
-     </div>
+     
   
-   <div class="card">
+   <div class="card" *ngFor= "let cardd of card ; let i = index">
      <div class="mapImg">
 
      </div>
      <div class="Cont">
      <div class="header"><h5>Building Inspection</h5></div>
      <div class="header2"><p>Address </p></div>
+     <div class="bottom">
+      <div class="rightButton">
+        
+      </div>
+      
+      <div class="leftButton">
+          <ion-button class="btn" href="inspection" color="clear">Inspect</ion-button>
+  
+      </div>
+    </div>
       
      </div>
      
   </div>
-  <div class="bottom">
-    <div class="rightButton">
-      
-    </div>
-    
-    <div class="leftButton">
-        <ion-button class="btn" href="inspection" color="clear">Inspect</ion-button>
-
-    </div>
+  
   </div>
-  </div>
+  <ion-content>
+    <ion-infinite-scroll>
+      <ion-infinite-scroll-content
+        loadingSpinner="bubbles"
+        loadingText="Loading more data…">
+      </ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+  </ion-content>
 </ion-content>

@@ -10,6 +10,7 @@ export class InspectionPage implements OnInit {
  /* [x: string]: any;
   currentImage: any*/
   constructor() { 
+    
 
     
   }

@@ -1,14 +1,16 @@
 <ion-header>
   
-    
+  <ion-toolbar color="dark"> 
+
+    <ion-title color="light">
+      Inspection Task List  
+    </ion-title>
+  </ion-toolbar>  
 </ion-header>
 
 <ion-content class="bg-style" >
   <div class="contain">
-    <div class="container">
-      <div class="conImg"><img src="https://geo-cloud.azurewebsites.net/images/gg-logo.png" height="80%;"></div>
-       <div class="heading"> <h4>Inspection Task List</h4></div>
-    </div>
+    
     <div class="instructions">
       <div class="title1"><h5>Background</h5></div>
       <div class="paraGra">
@@ -35,5 +37,12 @@
     </div>
     </div>
     
-  
+    <ion-content>
+      <ion-infinite-scroll>
+        <ion-infinite-scroll-content
+          loadingSpinner="bubbles"
+          loadingText="Loading more data…">
+        </ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+    </ion-content>
 </ion-content>

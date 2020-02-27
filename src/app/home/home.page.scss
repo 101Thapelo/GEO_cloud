@@ -55,10 +55,10 @@
 .bottom{
   width: 65%;
   height: 7%;
-
+  
   position: relative;
   top: -7%;
-  right: -40%;
+  right: -30%;
   display: flex;
 }
 .rightButton{
@@ -69,6 +69,7 @@
 .leftButton{
   width: 45%;
   height: 100%;
+  letter-spacing: 3px;
 
 }
 .vline	{
@@ -87,7 +88,7 @@
    }
    .conImg{
      width: 20%;
-     height: 100%;
+    
      
      position: relative;
      right: -1%;
@@ -104,3 +105,9 @@
      background-color: transparent;
      color: white;
    }
+   .background-header {
+    background: url("https://geo-cloud.azurewebsites.net/images/gg-logo.png") !important;
+  
+    background-repeat: no-repeat;
+    height: 100%;
+}
